@@ -9,7 +9,7 @@ function Product(props) {
   const {addToCart, cartItems} = useContext(ShoppingCon)
   const cartItemAmt = cartItems[id]
   return (
-    <div className='productBox col-md-4 col-sm-6 text-sm-center text-md-start text-xs-center'>
+    <div className='productBox col-auto text-md-start text-xs-center'>
       <div className="productImg"><img src={productImg} alt="" /></div>
       <div className="details">
         <h5>{productName}</h5>
